@@ -1,0 +1,294 @@
+@charset "utf-8";
+/******************************************
+			doc setting
+******************************************/
+body{
+	background-image:url("cup1.jpg"); 
+	background-size: 100%;
+	font-family: Arial, Helvetica, sans-serif;
+	margin:0; 
+	padding:0; 
+	border:0; 
+}
+
+.doc {
+    border-top: 0;
+    border-bottom: 0;
+	width:1000px;
+	margin:0 auto;
+	padding:0px 10px;
+}
+
+.doc a{
+	color:#990000;
+}
+
+.doc a:hover{
+	color:black;
+}
+
+.gototags a > div{
+	width:60px;
+	height:60px;
+	background-color:#970000;	
+	color:#FFF;
+	border-radius:5px 0 0 5px;
+}
+
+.gototags div div{
+	height:60px;
+	display:inline-block;
+	text-align:center;
+	line-height:60px;
+	vertical-align:top;
+}
+
+.gototags div div img{
+	margin:6px 0 0 6px;
+}
+
+#gohomepage{
+	position:absolute;
+	right:0px;
+	top:200px;
+	z-index:3;	
+}
+
+#goproject{
+	position:absolute;
+	right:0px;
+	top:280px;
+	z-index:3;	
+}
+/******************************************
+			header setting
+******************************************/
+.header {
+	font-size:36px;
+	font-weight:bolder;
+	height: 170px;
+	margin-top: 0px;
+	background-color: #000;
+	-moz-box-shadow: 0 0 1em black;
+    -webkit-box-shadow: 0 0 1em black;
+	border-bottom:1px solid #FFE0A3;
+	padding:0px 10px;
+}
+
+#head1{ 
+	width: 1000px;
+	height: 100px;
+	margin: auto;
+}
+
+#head2{
+	height:50px;
+	width:1000px;
+	margin:auto;
+}
+
+#hdleft{
+	height:60px;
+	float: left;
+	text-indent:10px;
+}
+
+#content{
+	text-align: center;
+	float:right;
+	margin-right:50px;
+	margin-top:0px;
+}
+
+#nav{
+	width: 800px;
+	height: 50px;
+	margin:auto;
+	border:1px solid black;
+}
+
+
+#content li, #nav li{
+	font-weight: bold;
+	display: inline-block;
+	margin-top:0px;
+	height:30px;
+	vertical-align:central;
+	width: 120px;
+}
+
+#content li{
+	width:80px;
+}
+
+#content li a{
+	font-size:16px;
+	color:#FFE0A3;
+	display:block;
+	height:24px;
+}
+
+#nav li a{
+	text-decoration: none;
+	color:#FFE0A3;
+	display:block;
+	height:32ght: bold;
+	font-size:24px;
+	text-align:center;
+}
+
+#nav li a:hover{
+	background-color:#FFE0A3;
+	border-radius:10px;
+	color: black; 
+}
+
+/******************************************
+			body setting (left&right)
+******************************************/
+.main{
+	background-color:#FFE0A3;
+	width:1000px;
+	-moz-box-shadow: 0 0 1em black;
+    -webkit-box-shadow: 0 0 1em black;
+	box-shadow: 0 0 1em black;
+	padding-bottom:20px;
+}
+
+.halfpost{
+	width: 475px;
+	margin-left:20px;
+	display: inline-block;
+}
+
+.post{
+	margin:0 20px;
+}
+
+.post img{
+	height:300px;
+	float:left; 
+	padding-right:10px;"
+}
+
+#contactimg{
+	height:310px;
+	float:left; 
+	padding-right:10px;"
+}
+
+.postbody_short img{
+	padding-right:10px;"
+}
+
+.posthd{
+	height:50px;
+	width: 460px;
+	padding-top:20px;
+	font-size:36px;
+	font-weight:bold;
+	border:black 2px;
+	line-height:30px;
+	font-family:"Comic Sans MS", cursive;
+	border-bottom:1px dashed black;
+}
+
+.posthd a{
+	text-decoration:none;
+	color:black;
+}
+
+.posthd a:hover{
+}
+	
+.posttag{
+	text-align:right;
+	font-size:12px;
+	margin-right:20px;
+	margin-top:10px;
+}
+
+.feature1{
+	width : 230px;
+	text-align: center;
+	display:inline-block;
+	padding-bottom:30px;
+}
+
+.feature1 img{
+	height:150px;
+}
+
+.postbody_short, .postbody_long{
+	background-color:#FFE0A3;
+	margin-top: 20px;	
+}
+
+.post #galley{
+	text-indent:0px;
+}
+
+.postend{
+	margin-left:40px;
+}
+
+.columnright p{
+	margin:10px 10px;
+}
+
+.columnright table td{
+	text-align:center;
+}
+
+.columnright table img{
+	height:45px;
+	width:45px;
+}
+
+/******************************************
+			footer setting
+******************************************/
+.footer{
+	height: 180px;
+	background-color:black;	
+	color:#FFE0A3; 
+	border-top:1px solid #FFE0A3;
+}
+
+#foot1, #foot2{ 
+	width: 1000px;
+	height: 100px;
+	margin: auto;
+}
+
+.feature2{
+	margin-top: 15px;
+	padding-left:20px;
+	padding-right: 20px;
+	width : 450px;	
+}
+
+#signuptext{
+	border-radius: 10px;
+	height:30px;
+	width:300px;
+	color: grey;
+	border:1px solid black;
+}
+
+#signupbtn{
+	background-color:#FFE0A3;
+	height:30px;
+	width:100px;
+	border-radius: 10px;
+	border:1px solid black;
+}
+
+#connectus{
+	text-align:right;
+	
+}
+
+#connectus img{
+	height:50px;	
+}

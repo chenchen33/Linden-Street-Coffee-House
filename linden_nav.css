@@ -1,0 +1,54 @@
+﻿/******************************************
+			slideshow setting
+******************************************/
+.slideshow{
+	width:1000px;
+	height:400px;
+	margin-top:0px;
+	-moz-box-shadow: 0 1em 1em black;
+    -webkit-box-shadow: 0 1em 1em black;
+	box-shadow: 0 1em 1em black;
+	background-color: black;
+}
+
+.switch-nav {
+	 position: relative;
+	 float:left;
+	 left: 800px; 
+	 top:350px;
+	 z-index: 2;
+}
+
+.switch-nav a { 
+	display: inline-block; 
+	padding:6px 10px; 
+	border:#CCC solid 1px; 
+}
+
+.switch-nav a img{
+	width: 20px;
+	height: 12px;
+}
+
+
+.switch-nav a:hover {
+	background: #CCC; 
+}
+
+.event-item { 
+	height: 400px; 
+	width: 1000px; 
+	position: absolute; 
+	z-index: 1;
+}
+
+.event-item img { 
+	width: 1000px;
+	height:400px;
+}
+
+.switch-tab {
+	text-align: center; 
+	padding: 10px 0; 
+	top:320px;
+}

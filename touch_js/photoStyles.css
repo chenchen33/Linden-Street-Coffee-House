@@ -1,0 +1,69 @@
+
+
+/*----------------------------
+	Thumbnails
+-----------------------------*/
+
+.thumbs{
+	width:760px;
+	margin: auto;
+	margin-top:20px;
+	margin-bottom:40px;
+	text-align:left;
+}
+
+.thumbs a{
+	width:120px;
+	height:120px;
+	display:inline-block;
+	border:3px solid #000;
+	border-radius:4px;
+	margin: 40px 30px ;
+	text-decoration:none;
+	background-position:20% 50%;
+	background-repeat: no-repeat;
+	background-size:cover;
+	-moz-background-size:cover;
+	-webkit-background-size:cover;
+	color: black;
+}
+
+#directory a{
+	border-color:#fff;
+}
+
+.thumbs a:hover{
+	border-color:#990000;
+	color: #990000;
+}
+
+#directory a:hover{
+	border-color:#990000;
+}
+
+.thumbs a:before, .thumbs a:after{
+	background-color: #FFE0A3;	
+    border-radius: 10px;
+    bottom: -128px;
+    content: attr(title);
+    display: inline-block;
+    font-size: 16px;
+    width: 180px;
+    padding: 2px 0px;
+    position: relative;
+    white-space: nowrap;
+	margin:auto;
+	text-align:center;
+	location: relative;
+	left: -30px;
+}
+
+.thumbs a:after{
+    content: attr(value);    
+}
+
+#backtophoto{
+	text-indent:30px;
+	margin-top:20px;
+	font-size:18px;
+}
