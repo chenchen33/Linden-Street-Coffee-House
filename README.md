@@ -1,4 +1,4 @@
-#Linden-Street-Coffee-House
+#Linden Street Coffee House
 
 
 Linden Street Coffee House is the No. 1 coffee house in Lamoni, serving people in town and students at Graceland University. Parents who came to the school to visit their children would choose Linden Street Coffee House to sit down and talk. Friends with ages came to this place to find memories. A lot more just got the habit to come to Linden Street Coffee House to grab a cup of coffee to start their day.
